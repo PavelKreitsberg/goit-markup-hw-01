@@ -1,3 +1,42 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+}
+
+.container-section {
+  background-color: #fff;
+  max-width: 1600px;
+  margin: 0px auto;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Main */
+
+section {
+  background-color: #2f303a;
+  height: 600px;
+}
+
+.section-text {
+  color: #fff;
+  width: 700px;
+  height: 120px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.our-team-section {
+  background-color: #f5f4fa;
+}
+
+/* footer */
+footer {
+  height: 250px;
+  background-color: #2f303a;
 }
